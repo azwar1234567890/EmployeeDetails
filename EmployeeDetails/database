@@ -1,0 +1,29 @@
+//CREATE DATABASE 
+create database employeedetails2024
+USE employeedetails2024
+
+//CREATE TABLE
+create table employee(
+emp_id int primary key identity,
+emp_name varchar(50),
+emp_salary int,
+emp_gender int,
+emp_designation int,
+emp_state int )
+
+//CREATE TABLE FOR GENDER 
+create table employeegender(
+gen_id int primary key identity,
+gen_name varchar(50));
+
+//CREATE TABLE  FOR STATE
+create table employeestate(
+state_id int primary key identity,
+state_name varchar(50));
+
+//CREATE TABLE FOR DESIGNATION
+create table employeedesignation(
+designation_id int primary key identity,
+designation_name varchar(50))
+
+//ALL THE REQUIRED TABLE HAS BEEN GIVEN. PLEASE CREATE THE PROCEDURE ACCORDINGLY. IN CASE OF ANY ISSUE CONTACT : azwar.aslam@gmail.com
